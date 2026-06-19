@@ -33,7 +33,7 @@ The raw dataset contained several quality issues that were addressed before anal
 
 1. **Dropped irrelevant columns** : global_id, ward_code, lga_code, 
    state_code, FID, timestamp, and accessibility were removed. 
-   The accessibility column was dropped entirely — 46,129 out of 
+   The accessibility column was dropped entirely - 46,129 out of 
    46,146 values were missing (99.9% null).
 
 2. **Standardised text fields** : state_name, lga_name, functional_status, 
